@@ -92,7 +92,7 @@ def button_clicked(value):
                 label["text"] = remove_zero_decimal(numA * numB)
             elif operator == "÷":
                 label["text"] = remove_zero_decimal(numA / numB)
-                label["text"] = "Error"
+                
                 clear_all()
 
 
